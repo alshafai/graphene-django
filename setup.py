@@ -25,7 +25,7 @@ tests_require = [
 ] + rest_framework_require
 
 setup(
-    name="graphene-django",
+    name="graphene-django-x",
     version=version,
     description="Graphene Django integration",
     long_description=open("README.rst").read(),
