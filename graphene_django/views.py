@@ -111,7 +111,7 @@ class GraphQLView(View):
     def get_backend(self, request):
         return self.backend
 
-    @method_decorator(ensure_csrf_cookie)
+    # @method_decorator(ensure_csrf_cookie)
     def dispatch(self, request, *args, **kwargs):
         try:
             if request.method.lower() not in ("get", "post"):
